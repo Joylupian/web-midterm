@@ -27,3 +27,5 @@ Route::get('/home', [
 
 
 Route::resource('joyControllers', App\Http\Controllers\JoyControllerController::class);
+
+Route::resource('logs', App\Http\Controllers\LogController::class);
